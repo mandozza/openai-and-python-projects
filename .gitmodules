@@ -1,0 +1,3 @@
+[submodule "automatic_blog_post_creator"]
+	path = automatic_blog_post_creator
+	url = https://github.com/mandozza/mandozza.github.io
