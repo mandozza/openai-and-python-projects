@@ -1,9 +1,11 @@
 import pandas as pd
 import json
 
-## This script converts the QA dataset into the format required by OpenAI's fine-tuning script
-## The fine-tuning is recomended to do via the CLI.
-## The comanand is: openai fine_tunes.create -t "file path to dataset goes here" -m babbage
+# This script converts the QA dataset into the format required by OpenAI's fine-tuning script
+# The fine-tuning is recomended to do via the CLI.
+# The comanand is: openai fine_tunes.create -t "file path to dataset goes here" -m babbage
+# once completed, the model can be accessed via the CLI or the API.
+# https://platform.openai.com/docs/guides/fine-tuning
 
 qa_df = pd.read_csv("python_qa.csv")
 
